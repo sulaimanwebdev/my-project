@@ -28,7 +28,7 @@ Jan Sjöström
     <div className="mx-auto max-w-[1500px] main-flex px-5 flex gap-7 justify-between">
     <div>
           <div className="font-bold text-2xl mb-3">TJÄNSTEUTBUD:</div>
-          <div className="flex flex-col sm:flex-row sm:justify-between md:max-w-full lg:max-w-[600px] gap-3">
+          <div className="flex flex-col sm:flex-row sm:justify-between max-w-full sm:max-w-[600px] gap-3">
               <div>
                   <div className='font-semibold text-lg opacity-95'>Byggnation och finsnickeri</div>
                   <div className='font-semibold text-lg opacity-95'>Totalentreprenad</div>
