@@ -3,12 +3,12 @@ import {Link} from 'react-router-dom'
 const Home = () => {
   return (
     <>
-    <div className="relative w-full h-[780px]">
+    <div className="relative w-full hero-section h-[780px]">
      <img src="/images/bg.jpeg" className='w-full h-full absolute top-0 left-0 object-cover object-center'/>
     <div className="mx-auto max-w-[1500px] z-10 relative pt-18 px-5">
-      <div className="text-[200px] font-bold text-white xl:ml-16">LOGO</div>
+      <div className="text-[200px] font-bold text-white xl:ml-16 logo">LOGO</div>
 
-      <p className=' xl:ml-16 text-white opacity-95 text-2xl mt-24 pt-20'>
+      <p className=' xl:ml-16 text-white hero-content opacity-95 text-2xl mt-24 pt-20'>
       Sjöström Skärgård är ett välrenommerat & heltäckande byggföretag som utför alla vanligt förekommande byggarbeten vid byggnation och snickeri, renoveringar, tillbyggnader och platsbyggda möbler.
 <br /><br />
 Vi hjälper privatpersoner, fastighetsägare, bostadsrättsföreningar och företag i Stockholms Skärgård med omnejd. Inget jobb är för litet eller stort för oss.
@@ -25,10 +25,10 @@ Jan Sjöström
 
    
    <div className="w-full mt-10 mb-7">
-    <div className="mx-auto max-w-[1500px] px-5 flex gap-7 justify-between">
+    <div className="mx-auto max-w-[1500px] main-flex px-5 flex gap-7 justify-between">
     <div>
           <div className="font-bold text-2xl mb-3">TJÄNSTEUTBUD:</div>
-          <div className="flex justify-between gap-3">
+          <div className="flex justify-between second-flex gap-3">
               <div>
                   <div className='font-semibold text-lg opacity-95'>Byggnation och finsnickeri</div>
                   <div className='font-semibold text-lg opacity-95'>Totalentreprenad</div>

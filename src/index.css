@@ -50,3 +50,28 @@ body {
 }
 
 
+
+@media (max-width:872px){
+  .main-flex{
+    flex-direction: column;
+  }
+
+  .hero-section{
+    height: auto !important;
+  }
+
+  .logo{
+    font-size: 80px;
+    padding-top: 20px;
+  }
+
+  .hero-content{
+    margin-top: 0px !important;
+    padding-bottom: 50px;
+  }
+  .second-flex{
+    flex-direction: column;
+    justify-content: start;
+    
+  }
+}
