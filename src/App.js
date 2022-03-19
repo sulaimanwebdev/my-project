@@ -1,12 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route, BrowserRouter } from "react-router-dom"
+import Header from './Components/Header'
+import Home from './Pages/Home'
+import Hem from './Pages/Hem'
+import Kontkat from './Pages/Kontkat'
+import Projekt from './Pages/Projekt'
+
+
 
 function App() {
   return (
     <>
- <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+  
+  <BrowserRouter>
+
+  <Header/>
+  <Routes>
+
+    <Route path="/" element={ <Home/> } />
+    <Route path="/" element={ <Hem/> } />
+    <Route path="/" element={ <Kontkat/> } />
+    <Route path="/" element={ <Kontkat/> } />
+
+
+
+  
+    </Routes>
+
+    </BrowserRouter>
+
     </>
   );
 }
