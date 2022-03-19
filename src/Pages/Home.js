@@ -28,7 +28,7 @@ Jan Sjöström
     <div className="mx-auto max-w-[1500px] main-flex px-5 flex gap-7 justify-between">
     <div>
           <div className="font-bold text-2xl mb-3">TJÄNSTEUTBUD:</div>
-          <div className="flex justify-between second-flex gap-3">
+          <div className="flex flex-col sm:flex-row sm:justify-between  gap-3">
               <div>
                   <div className='font-semibold text-lg opacity-95'>Byggnation och finsnickeri</div>
                   <div className='font-semibold text-lg opacity-95'>Totalentreprenad</div>
@@ -51,6 +51,9 @@ Jan Sjöström
               </div>
           </div>
 
+        <img src="/images/first-image.jpg" className='w-full block my-6 sm:hidden' />
+
+                  
           <div className="font-bold text-2xl mb-2 mt-6">TOTALENTREPRENÖR</div>
 
           <p className='font-semibold text-lg opacity-95'>Företaget har genom väl utförda arbeten, tydlig kommunikation och servicekänsla utvecklat verksamheten. Vi jobbar idag med återkommande kunder & via rekommendationer. Sjöström Skärgård utför helhetsåtaganden som totalentreprenör till mindre renoveringar. Efter många år i byggbranschen har vi ett etablerat kontaktnät av många seriösa hantverkare inom alla yrkesgrupper som vi samarbetar regelbundet med. I kontaktnätet ingår arkitekter med känsla för skärgårdsmiljöer och tillhörande kunniga utförare såsom kontrollansvariga (KA).
@@ -60,12 +63,18 @@ Jan Sjöström
 
           </p>
 
+
+
           <div className="button w-fit mt-7 bg-[#01687f] rounded-[5px] text-white font-bold relative text-center px-[15px] py-[0.5rem]"><Link to="/kontkat">KONTAKT/OFFERT</Link></div>
+
+
+        <img src="/images/second-image.jpg" className='w-full block sm:hidden mt-10' />
+
 
     </div>
 
 
-    <div className="flex flex-col gap-7">
+    <div className="hidden sm:flex flex-col gap-7">
         <img src="/images/first-image.jpg" className='w-[2900px]' />
         <img src="/images/second-image.jpg" className='w-[2900px]' />
 
