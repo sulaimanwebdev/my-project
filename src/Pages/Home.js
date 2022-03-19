@@ -65,7 +65,7 @@ Jan Sjöström
 
 
 
-          <img src="/images/second-image.jpg" className='w-full mobileImages hidden  mt-10' />
+          <img src="/images/second-image.jpg" className='w-full mobileImages hidden  mt-6' />
 
 
 
