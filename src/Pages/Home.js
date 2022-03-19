@@ -51,7 +51,7 @@ Jan Sjöström
               </div>
           </div>
 
-        <img src="/images/first-image.jpg" className='w-full block my-6 sm:hidden' />
+        <img src="/images/first-image.jpg" className='w-full mobileImages hidden my-6' />
 
                   
           <div className="font-bold text-2xl mb-2 mt-6">TOTALENTREPRENÖR</div>
@@ -65,16 +65,19 @@ Jan Sjöström
 
 
 
+          <img src="/images/second-image.jpg" className='w-full mobileImages hidden  mt-10' />
+
+
+
           <div className="button w-fit mt-7 bg-[#01687f] rounded-[5px] text-white font-bold relative text-center px-[15px] py-[0.5rem]"><Link to="/kontkat">KONTAKT/OFFERT</Link></div>
 
 
-        <img src="/images/second-image.jpg" className='w-full block sm:hidden mt-10' />
 
 
     </div>
 
 
-    <div className="hidden sm:flex flex-col gap-7">
+    <div className="flex desktopImages flex-col gap-7">
         <img src="/images/first-image.jpg" className='w-[2900px]' />
         <img src="/images/second-image.jpg" className='w-[2900px]' />
 
