@@ -1,4 +1,4 @@
-import {NavLink} from 'react-router-dom'
+import {NavLink, Link} from 'react-router-dom'
 import {useState} from 'react'
 
 
@@ -13,7 +13,7 @@ const Header = () => {
     <>
     <div className="w-full bg-white py-4">
          <div className="mx-auto max-w-[1500px] px-5 flex items-center justify-between">
-                 <div className="text-4xl font-bold">LOGO</div>
+                 <Link to="/"><img src="/images/logo.jpg" className='w-[170px] transform -translate-x-5' alt="logo" /></Link>
                  <nav className={`flex flex-col  px-3 pt-14 sm:pt-0 sm:right-0 sm:px-0 sm:flex-row gap-5 sm:gap-10 fixed top-0  sm:relative w-[300px] bg-white border-l-2 sm:border-none sm:w-auto h-screen z-50 sm:h-auto ${menu}`} style={{transition: "0.3s"}}>
                     <NavLink activeClassName="active" to="/hem" className='w-fit sm:w-auto font-[600]'>HEM</NavLink>
                     <NavLink exact activeClassName="active" to="/" className='w-fit sm:w-auto font-[600]'>OM OSS</NavLink>

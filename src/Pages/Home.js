@@ -6,9 +6,9 @@ const Home = () => {
     <div className="relative w-full hero-section h-[780px]">
      <img src="/images/bg.jpeg" className='w-full h-full absolute top-0 left-0 object-cover object-center'/>
     <div className="mx-auto max-w-[1500px] z-10 relative pt-18 px-5">
-      <div className="text-[200px] font-bold text-white xl:ml-16 logo">LOGO</div>
+      <div className="transform -translate-x-[40px] sm:-translate-x-[70px] xl:translate-x-0 xl:-ml-5 logo"><img src="/images/white-logo.png" className='w-[670px]' alt="logo" /></div>
 
-      <p className=' xl:ml-16 text-white hero-content opacity-95 text-2xl mt-24 pt-20'>
+      <p className=' xl:ml-16 text-white hero-content opacity-95 text-2xl mt-16 pt-10'>
       Sjöström Skärgård är ett välrenommerat & heltäckande byggföretag som utför alla vanligt förekommande byggarbeten vid byggnation och snickeri, renoveringar, tillbyggnader och platsbyggda möbler.
 <br /><br />
 Vi hjälper privatpersoner, fastighetsägare, bostadsrättsföreningar och företag i Stockholms Skärgård med omnejd. Inget jobb är för litet eller stort för oss.
