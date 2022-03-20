@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Projekt = () => {
+const Kontakat = () => {
   return (
     <>
     
@@ -8,4 +8,4 @@ const Projekt = () => {
   )
 }
 
-export default Projekt
+export default Kontakat

@@ -2,8 +2,8 @@ import { Routes, Route, BrowserRouter } from "react-router-dom"
 import Header from './Components/Header'
 import Home from './Pages/Home'
 import Hem from './Pages/Hem'
-import Kontkat from './Pages/Kontkat'
-import Projekt from './Pages/Projekt'
+import Kontakat from './Pages/Kontakat'
+import Inspiration from './Pages/Inspiration'
 
 
 
@@ -17,9 +17,9 @@ function App() {
   <Routes>
 
     <Route path="/" element={ <Home/> } />
-    <Route path="/" element={ <Hem/> } />
-    <Route path="/" element={ <Kontkat/> } />
-    <Route path="/" element={ <Kontkat/> } />
+    <Route path="/hem" element={ <Hem/> } />
+    <Route path="/inspiration" element={ <Inspiration/> } />
+    <Route path="/kontakt" element={ <Kontakat/> } />
 
 
 

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Kontkat = () => {
+const Inspiration = () => {
   return (
     <>
     
@@ -8,4 +8,4 @@ const Kontkat = () => {
   )
 }
 
-export default Kontkat
+export default Inspiration
