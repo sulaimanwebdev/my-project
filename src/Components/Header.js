@@ -17,7 +17,7 @@ const Header = () => {
                  <nav className={`flex flex-col  px-3 pt-14 sm:pt-0 sm:right-0 sm:px-0 sm:flex-row gap-5 sm:gap-10 fixed top-0  sm:relative w-[300px] bg-white border-l-2 sm:border-none sm:w-auto h-screen z-50 sm:h-auto ${menu}`} style={{transition: "0.3s"}}>
                     <NavLink activeClassName="active" to="/hem" className='w-fit sm:w-auto font-[600]'>HEM</NavLink>
                     <NavLink exact activeClassName="active" to="/" className='w-fit sm:w-auto font-[600]'>OM OSS</NavLink>
-                    <NavLink activeClassName="active" to="/projekt" className='w-fit sm:w-auto font-[600]'>INSPIRATION</NavLink>
+                    <NavLink activeClassName="active" to="/inspiration" className='w-fit sm:w-auto font-[600]'>INSPIRATION</NavLink>
                     <NavLink activeClassName="active" to="/kontakt" className='w-fit sm:w-auto font-[600]'>KONTAKT</NavLink>
                     <i class="far fa-times cursor-pointer block sm:hidden absolute top-5 right-5 text-3xl"
                      onClick={() =>{
